@@ -1,0 +1,5 @@
+RewriteEngine on 
+
+RewriteRule  ^view-(.*).php    index.php?id=$1
+
+RewriteRule  ^view/(.*)    index.php?id=$1
